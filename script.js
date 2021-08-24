@@ -1,19 +1,9 @@
 //* Simple js for "Simple Interest Calculator"
-<<<<<<< HEAD
-=======
-//* © Armin Fuhrmann
-//
-///////
->>>>>>> 9dc8b4f3aaaad0fcb4f3b3b95934483ee0237b5d
 function compute() {
   var principal = document.getElementById("principal").value;
   var rate = document.getElementById("rate").value;
   var years = document.getElementById("years").value;
-<<<<<<< HEAD
   var interest = principal * years * rate / 100;
-=======
-  var interest = principal * years * rate /100;
->>>>>>> 9dc8b4f3aaaad0fcb4f3b3b95934483ee0237b5d
   var year = new Date().getFullYear()+parseInt(years);
   var result = document.getElementById("result");
   if (principal <= 0) {
